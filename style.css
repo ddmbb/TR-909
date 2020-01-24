@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background: rgb(117, 117, 117)
+}
+
+.title {
+  border: 3px solid black;
+  background: rgb(204, 204, 204);
+  width: 65%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.results {
+    border: 3px solid black;
+    background: rgb(224, 224, 224);
+    width: 25%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+.questions {
+    border: 3px solid black;
+    background: rgb(236, 236, 236);
+    width: 60%;
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+.submit {
+    border: 3px solid black;
+    width: 15%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 640px) {
+{
+    width: 100%;
+  }
+}
+
+
