@@ -2,17 +2,103 @@
 
 Questions:
 
-Q.  What year was the Roland TR-909 released?  A. 1983, it was discontinued less than a year later
-Q.  Who designed the TR-909? A.  Tadao Kikumoto
-Q.  How many TR-909 were built?  A. 10,000: all hand-made
-Q.  How much did the TR-909 originally cost? A. $1,195; $3,000 adjusted; Used go for $3,500-$5,000 today
-Q.  What does "TR" stand for? A.  Transistor Rhythm; b/c the machine generates sound using analog synthesis
-Q.  Was the TR-909 Analog or Digital? A.  Both; combination of pure analogue synthesis and early digital samples, first Roland
-    drum machine to use samples
-Q.  How many different drum sounds does the 909 have? A. 10: kick, snare, clap, open/closed hats, low/hi toms, rim shot, ride/crash
-Q.  What innovative feature did the 909 introduce? A.  First drum machine to have MIDI capability; allowed it to be chained together
-    with other devices to be used as a live instrument; ALSO SWING
-Q.  What was the first official release showcasing the 909?  A. Skinny Puppy - Remission (1984)
+const STORE = [
+    {
+      question: 'What year was the Roland TR-909 released?',
+      answers: [
+        '1978',
+        '1983',
+        '1988',
+        '2001'
+      ],
+      correctAnswer:
+        '1983'
+    },
+    {
+      question: 'Who designed the TR-909?',
+      answers: [
+        'Tadao Kikumoto',
+        'Kieran Hebden',
+        'Kenichiro Nishi',
+        'Don Lewis'
+      ],
+      correctAnswer:
+        'Tadao Kikumoto'
+    },
+    {
+      question:"How many TR-909's were built?",
+      answers: [
+        '5,000,000',
+        '7,000,000',
+        '10,000',
+        '200,000'
+      ],
+      correctAnswer: '10,000'
+    },
+    {
+      question: 'How much did the TR-909 originally cost?',
+      answers: [
+        '$500',
+        '$999',
+        '$2,999',
+        '$1,195'
+      ],
+      correctAnswer: '$1,195'
+    },
+    {
+      question: 'What does "TR" stand for?',
+      answers: [
+        'Trans-Regulatory',
+        'Tinnitus Respiration',
+        'Transistor Rhythm',
+        'Triple Riveted'
+      ],
+      correctAnswer:
+        'Transistor Rhythm'
+    },
+    {
+      question: 'Was the TR-909 Analog or Digital?',
+      answers: [
+        'Analog',
+        'Digital',
+        'Both',
+        'Neither'
+      ],
+      correctAnswer: 'Both'
+    },
+    {
+      question:'How many different drum sounds does the 909 have?',
+      answers: [
+        '1',
+        '10',
+        '100',
+        '1000'
+      ],
+      correctAnswer:
+        '10'
+    },
+    {
+      question: 'What innovative feature did the 909 introduce?',
+      answers: [
+        "LFO's",
+        'MIDI',
+        'Sub Frequencies',
+        'Polyphonic Voices'
+      ],
+      correctAnswer:
+        'MIDI'
+    },
+    {
+      question: 'What was the first official release showcasing the 909?',
+      answers: [
+        'Frankie Knuckles - The Whistle Song',
+        'Madonna - Vogue',
+        'Derrick May - Strings of Life',
+        'Skinny Puppy - Remission'
+      ],
+      correctAnswer: 'Skinny Puppy - Remission'
+    },
+  ];
 
 Pictures:
 
